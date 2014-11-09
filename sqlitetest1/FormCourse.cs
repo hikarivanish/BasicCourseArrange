@@ -53,6 +53,7 @@ namespace sqlitetest1
                     break;
                 case Mode.EDIT:
                     CourseDbService.UpdateCourse(mCourse.Id, mCourse);
+                    //add this line
                     break;
             }
             this.Close();
